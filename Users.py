@@ -40,6 +40,7 @@ class User:
         else:
             DatabaseScripts.insert_user((self.name, self.username, password_encode, self.profile, self.active))
         pass
+        #ne rien faire
 
 
 def main():
